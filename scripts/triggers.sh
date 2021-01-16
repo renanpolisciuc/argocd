@@ -8,8 +8,8 @@ metadata:
 stringData:
   notifiers.yaml: |
     grafana:
-      apiUrl: <URL>
-      apiKey: <TOKEN>
+      apiUrl: http://grafana.default.svc.cluster.local:3000/api
+      apiKey: <SECRET>
 EOF
 
 kubectl apply -n argocd -f - << EOF
