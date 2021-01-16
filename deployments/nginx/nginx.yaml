@@ -3,6 +3,8 @@ kind: Deployment
 metadata:
   name: nginx-deployment
 spec:
+  syncPolicy:
+    automated: {}
   selector:
     matchLabels:
       app: nginx
