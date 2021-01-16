@@ -56,13 +56,13 @@ admin:
   ## Admin password
   ## If a password is not provided a random password will be generated
   ##
-  # password:
+  password: "admin"
   ## Name of the existing secret containing admin password
   ##
   # existingSecret:
   ## Password key on the existing secret
   ##
-  existingSecretPasswordKey: password
+  #existingSecretPasswordKey: password
 
 ## SMTP configuration
 ##
